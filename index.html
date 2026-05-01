@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAICHO Special Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+            background-color: #161b22;
+            border-bottom: 1px solid #30363d;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            color: #ff22ff;
+            margin: 0;
+            font-size: 1.5rem;
+            letter-spacing: 0.1rem;
+        }
+        .container {
+            max-width: 800px;
+            width: 90%;
+            text-align: center;
+        }
+        .image-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .caption {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: #8b949e;
+        }
+        .message {
+            margin-top: 2rem;
+            padding: 1rem;
+            background-color: rgba(255, 34, 255, 0.1);
+            border-left: 4px solid #ff22ff;
+            text-align: left;
+            font-style: italic;
+        }
+        footer {
+            margin-top: auto;
+            padding: 2rem;
+            font-size: 0.8rem;
+            color: #484f58;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KAICHO'S PRIVATE GALLERY</h1>
+    </header>
+    <div class="container">
+        <div class="image-card">
+            <!-- 画像ファイル名を適宜変更してください -->
+            <img src="ayano.jpg" alt="あやのさんのイラスト">
+            <div class="caption">Special Illustration by Ayano</div>
+        </div>
+        <div class="message">
+            SNSやってない非国民ども、これがあやのさんの神イラストや。<br>
+            しっかり目に焼き付けて、22時からの配信に集合しろや！
+        </div>
+    </div>
+    <footer>
+        &copy; 2026 Palmu Live Streaming Project - KAICHO
+    </footer>
+</body>
+</html>
